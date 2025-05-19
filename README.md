@@ -1,4 +1,4 @@
-```markdown
+
 # **LifeLineX: AI & Blockchain-powered Smart Healthcare**  
 ### **Team: PulseCoders**  
 **Rajneesh Singh** | **Nitin Dogra** | **Aditya Bhatt** | **Ishika Jindal**
@@ -66,4 +66,3 @@ LifeLineX tackles these issues with **AI-driven predictions and Blockchain-power
 👨‍💻 **Team PulseCoders**  
 📧 Contact Us: rajneeshsinghdev6453@gmail.com
 
-```
