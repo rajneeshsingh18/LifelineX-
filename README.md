@@ -4,6 +4,11 @@
 **Rajneesh Singh** | **Nitin Dogra** | **Aditya Bhatt** | **Ishika Jindal**
 
 
+
+![Project Diagram](./assets/Images/Futurescope.png)
+
+
+
 ---
 
 ## 📌 **Project Overview**  
