@@ -1,0 +1,93 @@
+/* Basic reset for navigation styling */
+nav {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem; /* Adjust the height as needed */
+  }
+  
+  nav .container .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .container .flex img {
+    height: 2.5rem; /* Adjust the logo size as needed */
+    width: 2.5rem;
+    margin-right: 0.75rem;
+  }
+  
+  nav .container .flex span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2d3748; /* Primary color */
+  }
+  
+  nav .container .sm\:hidden {
+    display: none;
+  }
+  
+  nav .container .hidden.sm\:flex {
+    display: flex;
+  }
+  
+  nav .container .sm\:ml-6 {
+    margin-left: 1.5rem;
+  }
+  
+  nav .container .sm\:space-x-4 {
+    margin-left: 1.5rem;
+  }
+  
+  nav .container .sm\:flex.items-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .container .sm\:hidden {
+    display: flex;
+  }
+  
+  nav .container .sm\:hidden .block {
+    display: block;
+  }
+  
+  nav .container .sm\:hidden.bg-white {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 4rem; /* Adjust based on header height */
+    left: 0;
+    width: 100%;
+  }
+  
+  nav .container .sm\:hidden .pt-2 {
+    padding-top: 0.5rem;
+  }
+  
+  nav .container .sm\:hidden .pb-3 {
+    padding-bottom: 0.75rem;
+  }
+  
+  nav .container .sm\:hidden .space-y-1 {
+    margin-top: 0.25rem;
+  }
+  
+  nav .container .sm\:hidden a {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #4a5568; /* Text color */
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  nav .container .sm\:hidden a:hover {
+    background-color: #edf2f7; /* Background color on hover */
+    color: #2d3748; /* Text color on hover */
+  }
+  

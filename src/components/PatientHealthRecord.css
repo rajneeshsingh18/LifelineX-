@@ -1,0 +1,73 @@
+.patient-health-record-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .file-upload {
+    margin-bottom: 20px;
+  }
+  
+  .file-upload input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: calc(100% - 120px);
+    box-sizing: border-box;
+  }
+  
+  .file-upload .upload-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .file-upload .upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .uploaded-files, .visit-history, .prescriptions {
+    margin-bottom: 20px;
+  }
+  
+  .uploaded-files ul, .visit-history ul, .prescriptions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .uploaded-files li, .visit-history li, .prescriptions li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .visit-history input, .prescriptions input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    box-sizing: border-box;
+  }
+  
+  .add-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
+  
+  

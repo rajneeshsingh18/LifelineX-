@@ -1,0 +1,131 @@
+.medicine-inventory {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.7s ease-in-out;
+}
+
+.medicine-inventory h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #2c3e50; /* Darker text color for better visibility */
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.medicine-inventory table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.medicine-inventory th,
+.medicine-inventory td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #2c3e50; /* Dark text color for better readability */
+  background-color: #ffffff; /* Light background to ensure text contrast */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.medicine-inventory th {
+  background-color: #f4f4f4;
+  color: #34495e; /* Darker color for header text */
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.medicine-inventory tr:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.01);
+  transition: transform 0.2s ease;
+}
+
+.low-stock {
+  background-color: #ffdddd;
+  color: #721c24; /* Dark red text for low-stock warning */
+  animation: pulseLowStock 1.5s infinite;
+}
+
+.near-expiry {
+  background-color: #fff3cd;
+  color: #856404; /* Dark yellow text for near-expiry warning */
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseLowStock {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .medicine-inventory {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .medicine-inventory th,
+  .medicine-inventory td {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  button {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+}
+
+  /* Custom WebKit Scrollbar for Stock and MinStock Columns */
+  .scrollbar-thumb-blue-500::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollbar-thumb-blue-500::-webkit-scrollbar-thumb {
+    background-color: #3b82f6; /* Tailwind's blue-500 */
+    border-radius: 10px;
+  }
+  
+  .scrollbar-track-gray-200::-webkit-scrollbar-track {
+    background-color: #e5e7eb; /* Tailwind's gray-200 */
+  }

@@ -1,0 +1,17 @@
+.patientProfile {
+  display: inline-flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 12px;
+
+  border: 5px solid #0b2f9f;
+  border-radius: 15px;
+  width: 15%;
+}
+
+.svgContainer {
+  display: flex;
+  align-items: center; /* Vertically center the SVG */
+  justify-content: center; /* Horizontally center the SVG */
+  height: 100%; /* Ensure the container takes the full height of its parent */
+}

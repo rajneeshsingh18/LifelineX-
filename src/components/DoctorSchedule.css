@@ -1,0 +1,104 @@
+/* Container Styling */
+.doctor-schedule-container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Doctor Selection Dropdown */
+.doctor-selection select {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+/* Calendar Container */
+.calendar-container {
+  margin-top: 20px;
+}
+
+/* Calendar Tile Classes */
+.calendar-tile {
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.calendar-tile:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Different status colors for doctor availability */
+.calendar-tile.available {
+  background-color: rgba(144, 238, 144, 0.5); /* Light green */
+}
+
+.calendar-tile.occupied {
+  background-color: rgba(255, 165, 0, 0.5); /* Light orange */
+}
+
+.calendar-tile.on-leave {
+  background-color: rgba(255, 99, 71, 0.5); /* Light red */
+}
+
+.calendar-tile.booked {
+  background-color: rgba(100, 149, 237, 0.5); /* Light blue */
+}
+
+/* Appointment Details Textarea */
+.appointment-details textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Book Appointment Button */
+.book-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 10px;
+  color: white;
+  background-color: #4a90e2; /* Default blue */
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.book-button:hover {
+  background-color: #3b7bc2;
+  transform: scale(1.05);
+}
+
+/* Appointments List */
+.appointments-list {
+  margin-top: 20px;
+}
+
+.appointments-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.appointments-list li {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.appointments-list li:hover {
+  background-color: rgba(100, 149, 237, 0.3); /* Light blue on hover */
+  transform: scale(1.05);
+}

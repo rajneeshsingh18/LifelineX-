@@ -1,0 +1,10 @@
+.bed-availability-page {
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+  }
+  
+  .bed-availability-page h2 {
+    margin-bottom: 20px;
+  }
+  

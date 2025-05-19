@@ -1,0 +1,22 @@
+.appointment-scheduling-page {
+    padding: 20px;
+    background-color: #61c5f0; /* Light gray background */
+    min-height: 100vh; /* Full height of the viewport */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Dark gray color for text */
+  }
+  
+  .doctor-schedule {
+    /* From https://css.glass */
+background: rgba(50, 43, 43, 0.71);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+backdrop-filter: blur(4.4px);
+-webkit-backdrop-filter: blur(4.4px);
+border: 1px solid rgba(50, 43, 43, 0.23);/* Subtle shadow effect */
+  }
+  

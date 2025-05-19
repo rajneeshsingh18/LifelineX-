@@ -1,0 +1,22 @@
+.medicine-inventory-page {
+    padding: 20px;
+    background-color: #fff9c4; /* Light gray background */
+    min-height: 100vh; /* Full height of the viewport */
+    color: #fdfdfd;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fdfdfd; /* Dark gray color for text */
+  }
+  
+  .medicine-inventory {
+    background-color: #fff; /* White background for the component */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+
+
