@@ -3,12 +3,13 @@
 ### **Team: PulseCoders**  
 **Rajneesh Singh** | **Nitin Dogra** | **Aditya Bhatt** | **Ishika Jindal**
 
-
+<!--
 ![Project Diagram](./assets/Images/Problem_Statement.png)
 ![Project Diagram](./assets/Images/ourSolution.png)
 ![Project Diagram](./assets/Images/Tech_Stack.png)
 ![Project Diagram](./assets/Images/Futurescope.png)
 ![Project Diagram](./assets/Images/who_we_serve.png)
+-->
 
 
 
