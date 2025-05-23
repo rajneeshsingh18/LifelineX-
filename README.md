@@ -1,7 +1,6 @@
 
 # **LifeLineX: AI & Blockchain-powered Smart Healthcare**  
-### **Team: PulseCoders**  
-**Rajneesh Singh** | **Nitin Dogra** | **Aditya Bhatt** | **Ishika Jindal**
+
 
 <!--
 ![Project Diagram](./assets/Images/Problem_Statement.png)
