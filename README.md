@@ -8,7 +8,7 @@
 ![Project Diagram](./assets/Images/Tech_Stack.png)
 ![Project Diagram](./assets/Images/Futurescope.png)
 ![Project Diagram](./assets/Images/who_we_serve.png)
--->
+
 
 
 
@@ -73,5 +73,6 @@ LifeLineX tackles these issues with **AI-driven predictions and Blockchain-power
 
 ## 🙌 **Contributors & Contact**  
 👨‍💻 **Team PulseCoders**  
+-->
 📧 Contact Us: rajneeshsinghdev6453@gmail.com
 
