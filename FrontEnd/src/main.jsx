@@ -7,8 +7,11 @@ import QueueStatus from './components/QueueStatus.jsx';
 import DoctorSchedule from './components/DoctorSchedule.jsx';
 import MedicineInventory from './components/MedicineInventory.jsx';
 import PatientHealthRecord from './components/PatientHealthRecord.jsx';
+import { ThemeProvider } from './contexts/ThemeContext';
 
 createRoot(document.getElementById('root')).render(
+
+   <ThemeProvider>
   <StrictMode>
     <App />
     {/* <BedAvailability />
@@ -17,4 +20,5 @@ createRoot(document.getElementById('root')).render(
     <MedicineInventory/>
     <PatientHealthRecord/> */}
   </StrictMode>,
+  </ThemeProvider>
 )
