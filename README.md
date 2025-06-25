@@ -2,7 +2,7 @@
 # **LifeLineX: AI & Blockchain-powered Smart Healthcare**  
 
 
-<!--
+
 ![Project Diagram](./assets/Images/Problem_Statement.png)
 ![Project Diagram](./assets/Images/ourSolution.png)
 ![Project Diagram](./assets/Images/Tech_Stack.png)
@@ -71,8 +71,5 @@ LifeLineX tackles these issues with **AI-driven predictions and Blockchain-power
 
 ---
 
-## 🙌 **Contributors & Contact**  
-👨‍💻 **Team PulseCoders**  
--->
 📧 Contact Us: rajneeshsinghdev6453@gmail.com
 
